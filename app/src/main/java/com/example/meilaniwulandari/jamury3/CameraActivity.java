@@ -37,9 +37,13 @@ public class CameraActivity extends AppCompatActivity{
                 .setActivityTitle("My Crop")
                 .setCropShape(CropImageView.CropShape.OVAL)
                 .setCropMenuCropButtonTitle("Done")
-                .setRequestedSize(400, 400)
+                .setRequestedSize(320, 320)
                 .setCropMenuCropButtonIcon(R.drawable.ic_launcher)
                 .start(this);
+    }
+
+    public void onSelectPrepo(View view){
+
     }
 
     @Override
