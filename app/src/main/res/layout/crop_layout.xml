@@ -23,11 +23,11 @@
         android:src="@drawable/placeholder"/>
 
     <Button
+        android:id="@+id/prepoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="12dp"
-        android:onClick="onSelectPrepo"
         android:text="@string/preprocessing" />
 
 </LinearLayout>
